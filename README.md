@@ -6,7 +6,7 @@ How to Create Short Path for Windows Folders or Directories
 <p>To list short path for folders in Windows, you need to run the command dir /x</p>
 
 <figure>
-    <img src="https://github.com/ShahbazHaroon/RabbitMQ-Installation/blob/master/img/erlang-installer-choose-components.png" alt="erlang installer choose components" />
+    <img src="https://github.com/ShahbazHaroon/Windows-ShortPath/blob/master/img/how-to-list-short-paths-in-windows.png" alt="erlang installer choose components" />
 </figure>
 
 <p>For example, in the above picture, you can see that INTERN~1 is a short path for Internet Explorer. So, instead of using C:\Program Files\Internet Explorer, you can use C:\PROGRA~1\INTERN~1 (doing dir /x at the C drive location, I found that PROGRA~1 is short path for Program Files).</p>
@@ -35,7 +35,7 @@ If you get response like “Registry state is 0” then its enabled. If it is di
 <p>Now do a listing using dir /x&nbsp; and you should be able to see the short name of your folder.</p>
 
 <figure>
-    <img src="https://github.com/ShahbazHaroon/RabbitMQ-Installation/blob/master/img/erlang-installer-choose-components.png" alt="erlang installer choose components" />
+    <img src="https://github.com/ShahbazHaroon/Windows-ShortPath/blob/master/img/create-windows-short-name-for-folders.png" alt="erlang installer choose components" />
 </figure>
 
 <p>You are now set to use this short path. If you wish to, disable this feature again using the command”
